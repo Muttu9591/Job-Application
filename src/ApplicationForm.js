@@ -74,7 +74,7 @@ function ApplicationForm() {
           onChange={handleChange}
         />{" "}
         <br /> <br />
-        <label htmlFor="fullName">Email :</label>
+        <label htmlFor="email">Email :</label>
         <input
           type="text"
           id="email"
@@ -84,7 +84,7 @@ function ApplicationForm() {
           onChange={handleChange}
         />
         <br /> <br />
-        <label htmlFor="fullName">Contact :</label>
+        <label htmlFor="contact">Contact :</label>
         <input
           type="text"
           id="contact"
